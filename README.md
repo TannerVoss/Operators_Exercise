@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JavaScript_Operators
 
 ## Steps
@@ -62,3 +63,6 @@ let lastName = "Williams";
 - What is the value of 0 !== false?
 
 Use the code above to test and print the results.
+=======
+# Forms-and-Tables-Exercise
+>>>>>>> 96ad80c5c988c11ceb9483a4fd7c52eb2da104bb
