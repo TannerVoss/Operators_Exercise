@@ -8,16 +8,17 @@ console.log("EXERCISE 1:\n==========\n");
 
 let a = 20;
 let b = 4;
-let add = a + b;
-let minus = a - b;
-let multiply = a * b;
-let dividing = a / b;
+let add = a + b; // could be considered "sum"
+let minus = a - b; // could be considered "difference"
+let multiply = a * b; // "product"
+let dividing = a / b; // "quotient"
 
 console.log(add)
 console.log(minus)
 console.log(multiply)
 console.log(dividing)
 
+console.log(add, minus, multiply, dividing)
 
 
 // YOUR CODE HERE
@@ -81,17 +82,17 @@ let firstName2 = "Robin";
 let lastName2 = "Williams";
 
 console.log("What is the value of: d == str3?");
-let question1 = d == str3;
+let question1 = d == str3; //true
 console.log(question1);
 
 console.log("\n==========\n")
 console.log("What is the value of: d === str3?");
-let question2 = d === str3;
+let question2 = d === str3; // false
 console.log()
 
 console.log("\n==========\n")
 console.log("What is the value of: !isPresent2?");
-let question3 = !isPresent2;
+let question3 = !isPresent2; // true
 console.log()
 
 console.log("\n==========\n")
@@ -106,7 +107,7 @@ console.log(question5)
 
 console.log("\n==========\n")
 console.log("What is the value of: 0 == false?");
-let question6 = 0 == false;
+let question6 = 0 == false; // true becuase 0 is falsy (type coercion)
 console.log(question6)
 
 console.log("\n==========\n")
